@@ -13,3 +13,6 @@ def getCombatStrength(prompt):
             return value
         else:
              print("Invalid Input! Please enter a number between 1-6")
+
+combatStrength = getCombatStrength("Please enter a number between 1-6 for Player")
+mCombatStrength = getCombatStrength("Please enter a number between 1-6 for Monster")
